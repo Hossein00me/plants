@@ -1,0 +1,91 @@
+<mxfile host="app.diagrams.net" agent="ChatGPT" compressed="false">
+  <diagram id="a70BmI2MuB3uWRP_AUa8" name="جستجوی گل و سبد خرید">
+    <mxGraphModel dx="1776" dy="909" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="V6dpFoX1TFxQFEtk616V-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;opacity=100;fillOpacity=100;movable=0;resizable=0;rotatable=0;editable=0;connectable=0;deletable=0;locked=1;pointerEvents=0;" value="" vertex="1">
+          <mxGeometry height="1020" width="1220" x="570" y="201.20001220703125" as="geometry" />
+        </mxCell>
+        <mxCell id="V6dpFoX1TFxQFEtk616V-2" parent="1" style="html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Tahoma;fontSize=16;fontColor=#000000;direction=rtl;spacing=6;strokeColor=none;fillColor=none;rounded=0;;fontSize=24;fontStyle=1;align=center;" value="Activity Diagram - جستجوی گل و افزودن به سبد خرید" vertex="1">
+          <mxGeometry height="62" width="1060" x="650" y="227.20001220703125" as="geometry" />
+        </mxCell>
+        <mxCell id="V6dpFoX1TFxQFEtk616V-3" parent="1" style="html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Tahoma;fontSize=16;fontColor=#000000;direction=rtl;spacing=6;ellipse;strokeColor=#000000;strokeWidth=1.4;fillColor=#000000;;" value="" vertex="1">
+          <mxGeometry height="26" width="26" x="1167" y="318.20001220703125" as="geometry" />
+        </mxCell>
+        <mxCell id="V6dpFoX1TFxQFEtk616V-4" parent="1" style="html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Tahoma;fontSize=16;fontColor=#000000;direction=rtl;spacing=6;rounded=1;arcSize=13;strokeColor=#000000;strokeWidth=1.4;fillColor=#FFFFFF;;" value="مشاهده محصولات و دسته بندی ها" vertex="1">
+          <mxGeometry height="59" width="292" x="1033" y="375.20001220703125" as="geometry" />
+        </mxCell>
+        <mxCell id="V6dpFoX1TFxQFEtk616V-5" parent="1" style="html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Tahoma;fontSize=16;fontColor=#000000;direction=rtl;spacing=6;rounded=1;arcSize=13;strokeColor=#000000;strokeWidth=1.4;fillColor=#FFFFFF;;" value="جستجوی گل" vertex="1">
+          <mxGeometry height="59" width="292" x="1033" y="474.20001220703125" as="geometry" />
+        </mxCell>
+        <mxCell id="V6dpFoX1TFxQFEtk616V-27" edge="1" parent="1" source="V6dpFoX1TFxQFEtk616V-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1179.0384615384614" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V6dpFoX1TFxQFEtk616V-6" parent="1" style="html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Tahoma;fontSize=16;fontColor=#000000;direction=rtl;spacing=6;rounded=1;arcSize=13;strokeColor=#000000;strokeWidth=1.4;fillColor=#FFFFFF;;" value="انتخاب گل و مشاهده مشخصات" vertex="1">
+          <mxGeometry height="59" width="292" x="1033" y="573.2000122070312" as="geometry" />
+        </mxCell>
+        <mxCell id="V6dpFoX1TFxQFEtk616V-7" parent="1" style="html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Tahoma;fontSize=16;fontColor=#000000;direction=rtl;spacing=6;rhombus;strokeColor=#000000;strokeWidth=1.4;fillColor=#FFFFFF;;fontSize=15;" value="گل موجود است؟" vertex="1">
+          <mxGeometry height="104" width="180" x="1090" y="684.2000122070312" as="geometry" />
+        </mxCell>
+        <mxCell id="V6dpFoX1TFxQFEtk616V-8" parent="1" style="html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Tahoma;fontSize=16;fontColor=#000000;direction=rtl;spacing=6;rounded=1;arcSize=13;strokeColor=#000000;strokeWidth=1.4;fillColor=#FFFFFF;;" value="افزودن گل به سبد خرید" vertex="1">
+          <mxGeometry height="60" width="292" x="1033" y="845.2000122070312" as="geometry" />
+        </mxCell>
+        <mxCell id="V6dpFoX1TFxQFEtk616V-28" edge="1" parent="1" source="V6dpFoX1TFxQFEtk616V-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1178.9884393063585" y="1090" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V6dpFoX1TFxQFEtk616V-9" parent="1" style="html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Tahoma;fontSize=16;fontColor=#000000;direction=rtl;spacing=6;rounded=1;arcSize=13;strokeColor=#000000;strokeWidth=1.4;fillColor=#FFFFFF;;" value="نمایش سبد خرید" vertex="1">
+          <mxGeometry height="60" width="292" x="1033" y="958.2000122070312" as="geometry" />
+        </mxCell>
+        <mxCell id="V6dpFoX1TFxQFEtk616V-10" parent="1" style="html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Tahoma;fontSize=16;fontColor=#000000;direction=rtl;spacing=6;ellipse;strokeColor=#000000;strokeWidth=2.2;fillColor=#FFFFFF;;" value="" vertex="1">
+          <mxGeometry height="36" width="36" x="1161" y="1097.2000122070312" as="geometry" />
+        </mxCell>
+        <mxCell id="V6dpFoX1TFxQFEtk616V-11" parent="1" style="html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Tahoma;fontSize=16;fontColor=#000000;direction=rtl;spacing=6;ellipse;strokeColor=#000000;strokeWidth=1;fillColor=#000000;;" value="" vertex="1">
+          <mxGeometry height="18" width="18" x="1170" y="1106.2000122070312" as="geometry" />
+        </mxCell>
+        <mxCell id="V6dpFoX1TFxQFEtk616V-12" parent="1" style="html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Tahoma;fontSize=16;fontColor=#000000;direction=rtl;spacing=6;strokeColor=none;fillColor=none;rounded=0;;fontSize=14;fontStyle=0;align=center;" value="پایان" vertex="1">
+          <mxGeometry height="26" width="106" x="1126" y="1137.2000122070312" as="geometry" />
+        </mxCell>
+        <mxCell id="V6dpFoX1TFxQFEtk616V-26" edge="1" parent="1" source="V6dpFoX1TFxQFEtk616V-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1572.7884615384614" y="900" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V6dpFoX1TFxQFEtk616V-13" parent="1" style="html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Tahoma;fontSize=16;fontColor=#000000;direction=rtl;spacing=6;rounded=1;arcSize=13;strokeColor=#000000;strokeWidth=1.4;fillColor=#FFFFFF;;" value="نمایش پیام موجود نبودن گل" vertex="1">
+          <mxGeometry height="62" width="288" x="1429" y="711.2000122070312" as="geometry" />
+        </mxCell>
+        <mxCell id="V6dpFoX1TFxQFEtk616V-14" parent="1" style="html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Tahoma;fontSize=16;fontColor=#000000;direction=rtl;spacing=6;ellipse;strokeColor=#000000;strokeWidth=2.2;fillColor=#FFFFFF;;" value="" vertex="1">
+          <mxGeometry height="36" width="36" x="1555" y="905.2000122070312" as="geometry" />
+        </mxCell>
+        <mxCell id="V6dpFoX1TFxQFEtk616V-15" parent="1" style="html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Tahoma;fontSize=16;fontColor=#000000;direction=rtl;spacing=6;ellipse;strokeColor=#000000;strokeWidth=1;fillColor=#000000;;" value="" vertex="1">
+          <mxGeometry height="18" width="18" x="1564" y="914.2000122070312" as="geometry" />
+        </mxCell>
+        <mxCell id="V6dpFoX1TFxQFEtk616V-16" parent="1" style="html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Tahoma;fontSize=16;fontColor=#000000;direction=rtl;spacing=6;strokeColor=none;fillColor=none;rounded=0;;fontSize=14;fontStyle=0;align=center;" value="پایان" vertex="1">
+          <mxGeometry height="26" width="106" x="1520" y="945.2000122070312" as="geometry" />
+        </mxCell>
+        <mxCell id="V6dpFoX1TFxQFEtk616V-17" edge="1" parent="1" source="V6dpFoX1TFxQFEtk616V-3" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;rounded=0;strokeColor=#000000;strokeWidth=2;endArrow=classic;endFill=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;fontFamily=Tahoma;fontSize=15;fontColor=#000000;labelBackgroundColor=#FFFFFF;dashed=0;html=1;" target="V6dpFoX1TFxQFEtk616V-4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V6dpFoX1TFxQFEtk616V-18" edge="1" parent="1" source="V6dpFoX1TFxQFEtk616V-4" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;rounded=0;strokeColor=#000000;strokeWidth=2;endArrow=classic;endFill=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;fontFamily=Tahoma;fontSize=15;fontColor=#000000;labelBackgroundColor=#FFFFFF;dashed=0;html=1;" target="V6dpFoX1TFxQFEtk616V-5" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V6dpFoX1TFxQFEtk616V-19" edge="1" parent="1" source="V6dpFoX1TFxQFEtk616V-5" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;rounded=0;strokeColor=#000000;strokeWidth=2;endArrow=classic;endFill=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;fontFamily=Tahoma;fontSize=15;fontColor=#000000;labelBackgroundColor=#FFFFFF;dashed=0;html=1;" target="V6dpFoX1TFxQFEtk616V-6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V6dpFoX1TFxQFEtk616V-21" edge="1" parent="1" source="V6dpFoX1TFxQFEtk616V-7" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;rounded=0;strokeColor=#000000;strokeWidth=2;endArrow=classic;endFill=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;fontFamily=Tahoma;fontSize=15;fontColor=#000000;labelBackgroundColor=#FFFFFF;dashed=0;html=1;" target="V6dpFoX1TFxQFEtk616V-8" value="بله">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V6dpFoX1TFxQFEtk616V-22" edge="1" parent="1" source="V6dpFoX1TFxQFEtk616V-8" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;rounded=0;strokeColor=#000000;strokeWidth=2;endArrow=classic;endFill=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;fontFamily=Tahoma;fontSize=15;fontColor=#000000;labelBackgroundColor=#FFFFFF;dashed=0;html=1;" target="V6dpFoX1TFxQFEtk616V-9" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V6dpFoX1TFxQFEtk616V-24" edge="1" parent="1" source="V6dpFoX1TFxQFEtk616V-7" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;rounded=0;strokeColor=#000000;strokeWidth=2;endArrow=classic;endFill=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;fontFamily=Tahoma;fontSize=15;fontColor=#000000;labelBackgroundColor=#FFFFFF;dashed=0;html=1;" target="V6dpFoX1TFxQFEtk616V-13" value="خیر">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

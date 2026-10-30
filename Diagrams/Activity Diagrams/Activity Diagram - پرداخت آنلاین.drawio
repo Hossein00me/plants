@@ -1,0 +1,103 @@
+<mxfile host="app.diagrams.net" agent="ChatGPT" compressed="false">
+  <diagram id="vczp4tqk8iP3aYcymnDl" name="پرداخت آنلاین">
+    <mxGraphModel dx="2091" dy="1735" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="8w3mI-oZPlcQsIFUfHJX-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;opacity=100;fillOpacity=100;movable=0;resizable=0;rotatable=0;editable=0;connectable=0;deletable=0;locked=1;pointerEvents=0;" value="" vertex="1">
+          <mxGeometry height="1180" width="1220" x="-319" y="-307" as="geometry" />
+        </mxCell>
+        <mxCell id="8w3mI-oZPlcQsIFUfHJX-2" parent="1" style="html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Tahoma;fontSize=16;fontColor=#000000;direction=rtl;spacing=6;strokeColor=none;fillColor=none;rounded=0;;fontSize=24;fontStyle=1;align=center;" value="Activity Diagram - پرداخت آنلاین" vertex="1">
+          <mxGeometry height="62" width="1060" x="-239" y="-281" as="geometry" />
+        </mxCell>
+        <mxCell id="8w3mI-oZPlcQsIFUfHJX-3" parent="1" style="html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Tahoma;fontSize=16;fontColor=#000000;direction=rtl;spacing=6;ellipse;strokeColor=#000000;strokeWidth=1.4;fillColor=#000000;;" value="" vertex="1">
+          <mxGeometry height="26" width="26" x="278" y="-199" as="geometry" />
+        </mxCell>
+        <mxCell id="8w3mI-oZPlcQsIFUfHJX-4" parent="1" style="html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Tahoma;fontSize=16;fontColor=#000000;direction=rtl;spacing=6;rounded=1;arcSize=13;strokeColor=#000000;strokeWidth=1.4;fillColor=#FFFFFF;;" value="انتخاب سفارش در انتظار پرداخت" vertex="1">
+          <mxGeometry height="60" width="296" x="143" y="-139" as="geometry" />
+        </mxCell>
+        <mxCell id="8w3mI-oZPlcQsIFUfHJX-5" parent="1" style="html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Tahoma;fontSize=16;fontColor=#000000;direction=rtl;spacing=6;rounded=1;arcSize=13;strokeColor=#000000;strokeWidth=1.4;fillColor=#FFFFFF;;" value="انتخاب پرداخت آنلاین" vertex="1">
+          <mxGeometry height="60" width="296" x="143" y="-44" as="geometry" />
+        </mxCell>
+        <mxCell id="8w3mI-oZPlcQsIFUfHJX-6" parent="1" style="html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Tahoma;fontSize=16;fontColor=#000000;direction=rtl;spacing=6;rounded=1;arcSize=13;strokeColor=#000000;strokeWidth=1.4;fillColor=#FFFFFF;;" value="انتقال به درگاه پرداخت" vertex="1">
+          <mxGeometry height="60" width="296" x="143" y="51" as="geometry" />
+        </mxCell>
+        <mxCell id="8w3mI-oZPlcQsIFUfHJX-7" parent="1" style="html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Tahoma;fontSize=16;fontColor=#000000;direction=rtl;spacing=6;rounded=1;arcSize=13;strokeColor=#000000;strokeWidth=1.4;fillColor=#FFFFFF;;" value="انجام پرداخت توسط مشتری" vertex="1">
+          <mxGeometry height="60" width="296" x="143" y="146" as="geometry" />
+        </mxCell>
+        <mxCell id="8w3mI-oZPlcQsIFUfHJX-8" parent="1" style="html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Tahoma;fontSize=16;fontColor=#000000;direction=rtl;spacing=6;rhombus;strokeColor=#000000;strokeWidth=1.4;fillColor=#FFFFFF;;fontSize=15;" value="پرداخت موفق بود؟" vertex="1">
+          <mxGeometry height="106" width="180" x="201" y="259" as="geometry" />
+        </mxCell>
+        <mxCell id="8w3mI-oZPlcQsIFUfHJX-9" parent="1" style="html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Tahoma;fontSize=16;fontColor=#000000;direction=rtl;spacing=6;rounded=1;arcSize=13;strokeColor=#000000;strokeWidth=1.4;fillColor=#FFFFFF;;" value="دریافت تاییدیه پرداخت" vertex="1">
+          <mxGeometry height="60" width="296" x="143" y="413" as="geometry" />
+        </mxCell>
+        <mxCell id="8w3mI-oZPlcQsIFUfHJX-10" parent="1" style="html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Tahoma;fontSize=16;fontColor=#000000;direction=rtl;spacing=6;rounded=1;arcSize=13;strokeColor=#000000;strokeWidth=1.4;fillColor=#FFFFFF;;" value="ثبت وضعیت پرداخت سفارش" vertex="1">
+          <mxGeometry height="60" width="296" x="143" y="518" as="geometry" />
+        </mxCell>
+        <mxCell id="8w3mI-oZPlcQsIFUfHJX-11" parent="1" style="html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Tahoma;fontSize=16;fontColor=#000000;direction=rtl;spacing=6;rounded=1;arcSize=13;strokeColor=#000000;strokeWidth=1.4;fillColor=#FFFFFF;;" value="نمایش رسید پرداخت" vertex="1">
+          <mxGeometry height="60" width="296" x="143" y="621" as="geometry" />
+        </mxCell>
+        <mxCell id="8w3mI-oZPlcQsIFUfHJX-12" parent="1" style="html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Tahoma;fontSize=16;fontColor=#000000;direction=rtl;spacing=6;ellipse;strokeColor=#000000;strokeWidth=2.2;fillColor=#FFFFFF;;" value="" vertex="1">
+          <mxGeometry height="36" width="36" x="273" y="776" as="geometry" />
+        </mxCell>
+        <mxCell id="8w3mI-oZPlcQsIFUfHJX-13" parent="1" style="html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Tahoma;fontSize=16;fontColor=#000000;direction=rtl;spacing=6;ellipse;strokeColor=#000000;strokeWidth=1;fillColor=#000000;;" value="" vertex="1">
+          <mxGeometry height="18" width="18" x="282" y="785" as="geometry" />
+        </mxCell>
+        <mxCell id="8w3mI-oZPlcQsIFUfHJX-14" parent="1" style="html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Tahoma;fontSize=16;fontColor=#000000;direction=rtl;spacing=6;strokeColor=none;fillColor=none;rounded=0;;fontSize=14;fontStyle=0;align=center;" value="پایان" vertex="1">
+          <mxGeometry height="26" width="106" x="238" y="816" as="geometry" />
+        </mxCell>
+        <mxCell id="8w3mI-oZPlcQsIFUfHJX-15" parent="1" style="html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Tahoma;fontSize=16;fontColor=#000000;direction=rtl;spacing=6;rounded=1;arcSize=13;strokeColor=#000000;strokeWidth=1.4;fillColor=#FFFFFF;;" value="نمایش پیام پرداخت ناموفق" vertex="1">
+          <mxGeometry height="60" width="290" x="535" y="298" as="geometry" />
+        </mxCell>
+        <mxCell id="8w3mI-oZPlcQsIFUfHJX-16" parent="1" style="html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Tahoma;fontSize=16;fontColor=#000000;direction=rtl;spacing=6;rounded=1;arcSize=13;strokeColor=#000000;strokeWidth=1.4;fillColor=#FFFFFF;;" value="بازگشت به سفارش" vertex="1">
+          <mxGeometry height="60" width="290" x="535" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="8w3mI-oZPlcQsIFUfHJX-17" parent="1" style="html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Tahoma;fontSize=16;fontColor=#000000;direction=rtl;spacing=6;ellipse;strokeColor=#000000;strokeWidth=2.2;fillColor=#FFFFFF;;" value="" vertex="1">
+          <mxGeometry height="36" width="36" x="662" y="629" as="geometry" />
+        </mxCell>
+        <mxCell id="8w3mI-oZPlcQsIFUfHJX-18" parent="1" style="html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Tahoma;fontSize=16;fontColor=#000000;direction=rtl;spacing=6;ellipse;strokeColor=#000000;strokeWidth=1;fillColor=#000000;;" value="" vertex="1">
+          <mxGeometry height="18" width="18" x="671" y="638" as="geometry" />
+        </mxCell>
+        <mxCell id="8w3mI-oZPlcQsIFUfHJX-19" parent="1" style="html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Tahoma;fontSize=16;fontColor=#000000;direction=rtl;spacing=6;strokeColor=none;fillColor=none;rounded=0;;fontSize=14;fontStyle=0;align=center;" value="پایان" vertex="1">
+          <mxGeometry height="26" width="106" x="627" y="669" as="geometry" />
+        </mxCell>
+        <mxCell id="8w3mI-oZPlcQsIFUfHJX-20" edge="1" parent="1" source="8w3mI-oZPlcQsIFUfHJX-3" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;rounded=0;strokeColor=#000000;strokeWidth=2;endArrow=classic;endFill=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;fontFamily=Tahoma;fontSize=15;fontColor=#000000;labelBackgroundColor=#FFFFFF;dashed=0;html=1;" target="8w3mI-oZPlcQsIFUfHJX-4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8w3mI-oZPlcQsIFUfHJX-21" edge="1" parent="1" source="8w3mI-oZPlcQsIFUfHJX-4" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;rounded=0;strokeColor=#000000;strokeWidth=2;endArrow=classic;endFill=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;fontFamily=Tahoma;fontSize=15;fontColor=#000000;labelBackgroundColor=#FFFFFF;dashed=0;html=1;" target="8w3mI-oZPlcQsIFUfHJX-5" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8w3mI-oZPlcQsIFUfHJX-22" edge="1" parent="1" source="8w3mI-oZPlcQsIFUfHJX-5" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;rounded=0;strokeColor=#000000;strokeWidth=2;endArrow=classic;endFill=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;fontFamily=Tahoma;fontSize=15;fontColor=#000000;labelBackgroundColor=#FFFFFF;dashed=0;html=1;" target="8w3mI-oZPlcQsIFUfHJX-6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8w3mI-oZPlcQsIFUfHJX-23" edge="1" parent="1" source="8w3mI-oZPlcQsIFUfHJX-6" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;rounded=0;strokeColor=#000000;strokeWidth=2;endArrow=classic;endFill=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;fontFamily=Tahoma;fontSize=15;fontColor=#000000;labelBackgroundColor=#FFFFFF;dashed=0;html=1;" target="8w3mI-oZPlcQsIFUfHJX-7" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8w3mI-oZPlcQsIFUfHJX-24" edge="1" parent="1" source="8w3mI-oZPlcQsIFUfHJX-7" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;rounded=0;strokeColor=#000000;strokeWidth=2;endArrow=classic;endFill=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;fontFamily=Tahoma;fontSize=15;fontColor=#000000;labelBackgroundColor=#FFFFFF;dashed=0;html=1;" target="8w3mI-oZPlcQsIFUfHJX-8" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8w3mI-oZPlcQsIFUfHJX-25" edge="1" parent="1" source="8w3mI-oZPlcQsIFUfHJX-8" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;rounded=0;strokeColor=#000000;strokeWidth=2;endArrow=classic;endFill=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;fontFamily=Tahoma;fontSize=15;fontColor=#000000;labelBackgroundColor=#FFFFFF;dashed=0;html=1;" target="8w3mI-oZPlcQsIFUfHJX-9" value="بله">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8w3mI-oZPlcQsIFUfHJX-26" edge="1" parent="1" source="8w3mI-oZPlcQsIFUfHJX-9" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;rounded=0;strokeColor=#000000;strokeWidth=2;endArrow=classic;endFill=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;fontFamily=Tahoma;fontSize=15;fontColor=#000000;labelBackgroundColor=#FFFFFF;dashed=0;html=1;" target="8w3mI-oZPlcQsIFUfHJX-10" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8w3mI-oZPlcQsIFUfHJX-27" edge="1" parent="1" source="8w3mI-oZPlcQsIFUfHJX-10" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;rounded=0;strokeColor=#000000;strokeWidth=2;endArrow=classic;endFill=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;fontFamily=Tahoma;fontSize=15;fontColor=#000000;labelBackgroundColor=#FFFFFF;dashed=0;html=1;" target="8w3mI-oZPlcQsIFUfHJX-11" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8w3mI-oZPlcQsIFUfHJX-28" edge="1" parent="1" source="8w3mI-oZPlcQsIFUfHJX-11" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;rounded=0;strokeColor=#000000;strokeWidth=2;endArrow=classic;endFill=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;fontFamily=Tahoma;fontSize=15;fontColor=#000000;labelBackgroundColor=#FFFFFF;dashed=0;html=1;" target="8w3mI-oZPlcQsIFUfHJX-12" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8w3mI-oZPlcQsIFUfHJX-29" edge="1" parent="1" source="8w3mI-oZPlcQsIFUfHJX-8" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;rounded=0;strokeColor=#000000;strokeWidth=2;endArrow=classic;endFill=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;fontFamily=Tahoma;fontSize=15;fontColor=#000000;labelBackgroundColor=#FFFFFF;dashed=0;html=1;" target="8w3mI-oZPlcQsIFUfHJX-15" value="خیر">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8w3mI-oZPlcQsIFUfHJX-30" edge="1" parent="1" source="8w3mI-oZPlcQsIFUfHJX-15" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;rounded=0;strokeColor=#000000;strokeWidth=2;endArrow=classic;endFill=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;fontFamily=Tahoma;fontSize=15;fontColor=#000000;labelBackgroundColor=#FFFFFF;dashed=0;html=1;" target="8w3mI-oZPlcQsIFUfHJX-16" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8w3mI-oZPlcQsIFUfHJX-31" edge="1" parent="1" source="8w3mI-oZPlcQsIFUfHJX-16" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;rounded=0;strokeColor=#000000;strokeWidth=2;endArrow=classic;endFill=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;fontFamily=Tahoma;fontSize=15;fontColor=#000000;labelBackgroundColor=#FFFFFF;dashed=0;html=1;" target="8w3mI-oZPlcQsIFUfHJX-17" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
