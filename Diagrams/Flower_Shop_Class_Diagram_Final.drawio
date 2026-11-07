@@ -1,0 +1,516 @@
+<mxfile host="app.diagrams.net" agent="ChatGPT">
+  <diagram id="flower-shop-uml-class" name="UML Class Diagram">
+    <mxGraphModel dx="2389" dy="1528" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2490" pageHeight="1950" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="background" parent="1" style="rounded=0;fillColor=#F8FAFC;strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="1950" width="2490" as="geometry" />
+        </mxCell>
+        <mxCell id="heading" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=30;fontColor=#0F172A;fontStyle=1;spacing=0;strokeColor=none;fillColor=none;" value="UML CLASS DIAGRAM  |  Flower Shop" vertex="1">
+          <mxGeometry height="54" width="2210" x="80" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rule" parent="1" style="rounded=0;fillColor=#CBD5E1;strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="2" width="2305" x="80" y="147" as="geometry" />
+        </mxCell>
+        <mxCell id="uml_edge_1" edge="1" parent="1" source="uml_class_User" style="edgeStyle=segmentEdgeStyle;rounded=1;orthogonalLoop=1;html=0;strokeColor=#64748B;strokeWidth=2.2;endArrow=none;startArrow=none;startFill=1;startSize=16;exitX=1;exitY=0.23;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.73;entryDx=0;entryDy=0;entryPerimeter=0;" target="uml_class_Cart" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="500" y="704" />
+              <mxPoint x="500" y="420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uml_mult_1_s" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=15;fontColor=#334155;fontStyle=1;spacing=0;strokeColor=none;fillColor=none;" value="1" vertex="1">
+          <mxGeometry height="26" width="67" x="440" y="681" as="geometry" />
+        </mxCell>
+        <mxCell id="uml_mult_1_t" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=15;fontColor=#334155;fontStyle=1;spacing=0;strokeColor=none;fillColor=none;" value="0..1" vertex="1">
+          <mxGeometry height="26" width="67" x="483" y="393" as="geometry" />
+        </mxCell>
+        <mxCell id="uml_edge_2" edge="1" parent="1" source="uml_class_Cart" style="edgeStyle=segmentEdgeStyle;rounded=1;orthogonalLoop=1;html=0;strokeColor=#64748B;strokeWidth=2.2;endArrow=none;startArrow=diamond;startFill=1;startSize=16;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="uml_class_CartItem" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uml_mult_2_s" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=15;fontColor=#334155;fontStyle=1;spacing=0;strokeColor=none;fillColor=none;" value="1" vertex="1">
+          <mxGeometry height="26" width="67" x="934" y="347" as="geometry" />
+        </mxCell>
+        <mxCell id="uml_mult_2_t" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=15;fontColor=#334155;fontStyle=1;spacing=0;strokeColor=none;fillColor=none;" value="0..*" vertex="1">
+          <mxGeometry height="26" width="67" x="992" y="347" as="geometry" />
+        </mxCell>
+        <mxCell id="uml_edge_3" edge="1" parent="1" source="uml_class_CartItem" style="edgeStyle=segmentEdgeStyle;rounded=1;orthogonalLoop=1;html=0;strokeColor=#64748B;strokeWidth=2.2;endArrow=none;startArrow=none;startFill=1;startSize=16;exitX=1;exitY=0.52;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.26;entryDx=0;entryDy=0;entryPerimeter=0;" target="uml_class_Product" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1485" y="378" />
+              <mxPoint x="1485" y="695" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uml_mult_3_s" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=15;fontColor=#334155;fontStyle=1;spacing=0;strokeColor=none;fillColor=none;" value="0..*" vertex="1">
+          <mxGeometry height="26" width="67" x="1418" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="uml_mult_3_t" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=15;fontColor=#334155;fontStyle=1;spacing=0;strokeColor=none;fillColor=none;" value="1" vertex="1">
+          <mxGeometry height="26" width="67" x="1513" y="678" as="geometry" />
+        </mxCell>
+        <mxCell id="uml_edge_4" edge="1" parent="1" source="uml_class_Product" style="edgeStyle=segmentEdgeStyle;rounded=1;orthogonalLoop=1;html=0;strokeColor=#64748B;strokeWidth=2.2;endArrow=none;startArrow=none;startFill=1;startSize=16;exitX=1;exitY=0.51;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.69;entryDx=0;entryDy=0;entryPerimeter=0;" target="uml_class_Category" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uml_mult_4_s" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=15;fontColor=#334155;fontStyle=1;spacing=0;strokeColor=none;fillColor=none;" value="1..*" vertex="1">
+          <mxGeometry height="26" width="67" x="1909" y="744.25" as="geometry" />
+        </mxCell>
+        <mxCell id="uml_mult_4_t" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=15;fontColor=#334155;fontStyle=1;spacing=0;strokeColor=none;fillColor=none;" value="1" vertex="1">
+          <mxGeometry height="26" width="67" x="2016" y="727" as="geometry" />
+        </mxCell>
+        <mxCell id="uml_edge_5" edge="1" parent="1" source="uml_class_User" style="edgeStyle=segmentEdgeStyle;rounded=1;orthogonalLoop=1;html=0;strokeColor=#64748B;strokeWidth=2.2;endArrow=none;startArrow=none;startFill=1;startSize=16;exitX=1;exitY=0.8;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.31;entryDx=0;entryDy=0;entryPerimeter=0;" target="uml_class_Order" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="522" y="948" />
+              <mxPoint x="522" y="1160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uml_mult_5_s" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=15;fontColor=#334155;fontStyle=1;spacing=0;strokeColor=none;fillColor=none;" value="1" vertex="1">
+          <mxGeometry height="26" width="67" x="464" y="927" as="geometry" />
+        </mxCell>
+        <mxCell id="uml_mult_5_t" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=15;fontColor=#334155;fontStyle=1;spacing=0;strokeColor=none;fillColor=none;" value="0..*" vertex="1">
+          <mxGeometry height="26" width="67" x="474" y="1125" as="geometry" />
+        </mxCell>
+        <mxCell id="uml_edge_6" edge="1" parent="1" source="uml_class_Order" style="edgeStyle=segmentEdgeStyle;rounded=1;orthogonalLoop=1;html=0;strokeColor=#64748B;strokeWidth=2.2;endArrow=none;startArrow=diamond;startFill=1;startSize=16;exitX=1;exitY=0.52;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.56;entryDx=0;entryDy=0;entryPerimeter=0;" target="uml_class_OrderItem" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uml_mult_6_s" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=15;fontColor=#334155;fontStyle=1;spacing=0;strokeColor=none;fillColor=none;" value="1" vertex="1">
+          <mxGeometry height="26" width="67" x="915" y="1182" as="geometry" />
+        </mxCell>
+        <mxCell id="uml_mult_6_t" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=15;fontColor=#334155;fontStyle=1;spacing=0;strokeColor=none;fillColor=none;" value="0..*" vertex="1">
+          <mxGeometry height="26" width="67" x="992" y="1182" as="geometry" />
+        </mxCell>
+        <mxCell id="uml_edge_7" edge="1" parent="1" source="uml_class_OrderItem" style="edgeStyle=segmentEdgeStyle;rounded=1;orthogonalLoop=1;html=0;strokeColor=#64748B;strokeWidth=2.2;endArrow=none;startArrow=none;startFill=1;startSize=16;exitX=1;exitY=0.48;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.84;entryDx=0;entryDy=0;entryPerimeter=0;" target="uml_class_Product" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1505" y="1166" />
+              <mxPoint x="1505" y="874" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uml_mult_7_s" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=15;fontColor=#334155;fontStyle=1;spacing=0;strokeColor=none;fillColor=none;" value="0..*" vertex="1">
+          <mxGeometry height="26" width="67" x="1420" y="1143" as="geometry" />
+        </mxCell>
+        <mxCell id="uml_mult_7_t" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=15;fontColor=#334155;fontStyle=1;spacing=0;strokeColor=none;fillColor=none;" value="1" vertex="1">
+          <mxGeometry height="26" width="67" x="1519" y="853" as="geometry" />
+        </mxCell>
+        <mxCell id="uml_edge_8" edge="1" parent="1" source="uml_class_Order" style="edgeStyle=segmentEdgeStyle;rounded=1;orthogonalLoop=1;html=0;strokeColor=#64748B;strokeWidth=2.2;endArrow=none;startArrow=none;startFill=1;startSize=16;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="uml_class_Payment" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uml_mult_8_s" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=15;fontColor=#334155;fontStyle=1;spacing=0;strokeColor=none;fillColor=none;" value="1" vertex="1">
+          <mxGeometry height="26" width="67" x="756" y="1404" as="geometry" />
+        </mxCell>
+        <mxCell id="uml_mult_8_t" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=15;fontColor=#334155;fontStyle=1;spacing=0;strokeColor=none;fillColor=none;" value="0..*" vertex="1">
+          <mxGeometry height="26" width="67" x="756" y="1460" as="geometry" />
+        </mxCell>
+        <mxCell id="uml_class_User" parent="1" style="group;html=0;container=1;collapsible=0;recursiveResize=0;connectable=1;" value="" vertex="1">
+          <mxGeometry height="384" width="372" x="80" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="uml_class_User_border" parent="uml_class_User" style="rounded=1;arcSize=4;fillColor=#FFFFFF;strokeColor=#4F46E5;strokeWidth=2.1;shadow=1;" value="" vertex="1">
+          <mxGeometry height="384" width="372" as="geometry" />
+        </mxCell>
+        <mxCell id="uml_class_User_header" parent="uml_class_User" style="rounded=0;fillColor=#E0E7FF;strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="59" width="370" x="1" y="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uml_class_User_name" parent="uml_class_User" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=21;fontColor=#4F46E5;fontStyle=1;spacing=0;strokeColor=none;fillColor=none;" value="User" vertex="1">
+          <mxGeometry height="28" width="344" x="14" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="uml_class_User_fa" parent="uml_class_User" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=11;fontColor=#475569;fontStyle=0;spacing=0;strokeColor=none;fillColor=none;" value="کاربر" vertex="1">
+          <mxGeometry height="16" width="344" x="14" y="36" as="geometry" />
+        </mxCell>
+        <mxCell id="uml_class_User_line1" parent="uml_class_User" style="rounded=0;fillColor=#4F46E5;strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="1.4" width="372" y="59" as="geometry" />
+        </mxCell>
+        <mxCell id="uml_class_User_attribute0" parent="uml_class_User" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=15;fontColor=#1E293B;fontStyle=0;spacing=0;strokeColor=none;fillColor=none;" value="- user_id: int" vertex="1">
+          <mxGeometry height="26" width="338" x="17" y="68" as="geometry" />
+        </mxCell>
+        <mxCell id="uml_class_User_attrbg1" parent="uml_class_User" style="rounded=0;fillColor=#F8FAFC;strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="29" width="368" x="2" y="94" as="geometry" />
+        </mxCell>
+        <mxCell id="uml_class_User_attribute1" parent="uml_class_User" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=15;fontColor=#1E293B;fontStyle=0;spacing=0;strokeColor=none;fillColor=none;" value="- name: varchar" vertex="1">
+          <mxGeometry height="26" width="338" x="17" y="97" as="geometry" />
+        </mxCell>
+        <mxCell id="uml_class_User_attribute2" parent="uml_class_User" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=15;fontColor=#1E293B;fontStyle=0;spacing=0;strokeColor=none;fillColor=none;" value="- email: varchar" vertex="1">
+          <mxGeometry height="26" width="338" x="17" y="126" as="geometry" />
+        </mxCell>
+        <mxCell id="uml_class_User_attrbg3" parent="uml_class_User" style="rounded=0;fillColor=#F8FAFC;strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="29" width="368" x="2" y="152" as="geometry" />
+        </mxCell>
+        <mxCell id="uml_class_User_attribute3" parent="uml_class_User" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=15;fontColor=#1E293B;fontStyle=0;spacing=0;strokeColor=none;fillColor=none;" value="- phone: varchar" vertex="1">
+          <mxGeometry height="26" width="338" x="17" y="155" as="geometry" />
+        </mxCell>
+        <mxCell id="uml_class_User_attribute4" parent="uml_class_User" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=15;fontColor=#1E293B;fontStyle=0;spacing=0;strokeColor=none;fillColor=none;" value="- address: text" vertex="1">
+          <mxGeometry height="26" width="338" x="17" y="184" as="geometry" />
+        </mxCell>
+        <mxCell id="uml_class_User_attrbg5" parent="uml_class_User" style="rounded=0;fillColor=#F8FAFC;strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="29" width="368" x="2" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="uml_class_User_attribute5" parent="uml_class_User" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=15;fontColor=#1E293B;fontStyle=0;spacing=0;strokeColor=none;fillColor=none;" value="- username: text" vertex="1">
+          <mxGeometry height="26" width="338" x="17" y="213" as="geometry" />
+        </mxCell>
+        <mxCell id="uml_class_User_attribute6" parent="uml_class_User" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=15;fontColor=#1E293B;fontStyle=0;spacing=0;strokeColor=none;fillColor=none;" value="- password: text" vertex="1">
+          <mxGeometry height="26" width="338" x="17" y="242" as="geometry" />
+        </mxCell>
+        <mxCell id="uml_class_User_line2" parent="uml_class_User" style="rounded=0;fillColor=#94A3B8;strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="1.25" width="372" y="278" as="geometry" />
+        </mxCell>
+        <mxCell id="uml_class_User_method0" parent="uml_class_User" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=14;fontColor=#164E63;fontStyle=0;spacing=0;strokeColor=none;fillColor=none;" value="+ login(username: text, password: text): bool" vertex="1">
+          <mxGeometry height="27" width="338" x="17" y="287" as="geometry" />
+        </mxCell>
+        <mxCell id="uml_class_User_methodbg1" parent="uml_class_User" style="rounded=0;fillColor=#F8FAFC;strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="30" width="368" x="2" y="314" as="geometry" />
+        </mxCell>
+        <mxCell id="uml_class_User_method1" parent="uml_class_User" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=14;fontColor=#164E63;fontStyle=0;spacing=0;strokeColor=none;fillColor=none;" value="+ updateProfile(): void" vertex="1">
+          <mxGeometry height="27" width="338" x="17" y="317" as="geometry" />
+        </mxCell>
+        <mxCell id="uml_class_User_method2" parent="uml_class_User" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=14;fontColor=#164E63;fontStyle=0;spacing=0;strokeColor=none;fillColor=none;" value="+ getOrders(): List&lt;Order&gt;" vertex="1">
+          <mxGeometry height="27" width="338" x="17" y="347" as="geometry" />
+        </mxCell>
+        <mxCell id="uml_class_Cart" parent="1" style="group;html=0;container=1;collapsible=0;recursiveResize=0;connectable=1;" value="" vertex="1">
+          <mxGeometry height="239" width="372" x="550" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="uml_class_Cart_border" parent="uml_class_Cart" style="rounded=1;arcSize=4;fillColor=#FFFFFF;strokeColor=#0F766E;strokeWidth=2.1;shadow=1;" value="" vertex="1">
+          <mxGeometry height="239" width="372" as="geometry" />
+        </mxCell>
+        <mxCell id="uml_class_Cart_header" parent="uml_class_Cart" style="rounded=0;fillColor=#CCFBF1;strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="59" width="370" x="1" y="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uml_class_Cart_name" parent="uml_class_Cart" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=21;fontColor=#0F766E;fontStyle=1;spacing=0;strokeColor=none;fillColor=none;" value="Cart" vertex="1">
+          <mxGeometry height="28" width="344" x="14" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="uml_class_Cart_fa" parent="uml_class_Cart" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=11;fontColor=#475569;fontStyle=0;spacing=0;strokeColor=none;fillColor=none;" value="سبد خرید" vertex="1">
+          <mxGeometry height="16" width="344" x="14" y="36" as="geometry" />
+        </mxCell>
+        <mxCell id="uml_class_Cart_line1" parent="uml_class_Cart" style="rounded=0;fillColor=#0F766E;strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="1.4" width="372" y="59" as="geometry" />
+        </mxCell>
+        <mxCell id="uml_class_Cart_attribute0" parent="uml_class_Cart" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=15;fontColor=#1E293B;fontStyle=0;spacing=0;strokeColor=none;fillColor=none;" value="- user_id: int" vertex="1">
+          <mxGeometry height="26" width="338" x="17" y="68" as="geometry" />
+        </mxCell>
+        <mxCell id="uml_class_Cart_attrbg1" parent="uml_class_Cart" style="rounded=0;fillColor=#F8FAFC;strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="29" width="368" x="2" y="94" as="geometry" />
+        </mxCell>
+        <mxCell id="uml_class_Cart_attribute1" parent="uml_class_Cart" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=15;fontColor=#1E293B;fontStyle=0;spacing=0;strokeColor=none;fillColor=none;" value="- updated_at: datetime" vertex="1">
+          <mxGeometry height="26" width="338" x="17" y="97" as="geometry" />
+        </mxCell>
+        <mxCell id="uml_class_Cart_line2" parent="uml_class_Cart" style="rounded=0;fillColor=#94A3B8;strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="1.25" width="372" y="133" as="geometry" />
+        </mxCell>
+        <mxCell id="uml_class_Cart_method0" parent="uml_class_Cart" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=14;fontColor=#164E63;fontStyle=0;spacing=0;strokeColor=none;fillColor=none;" value="+ addItem(productId: int, qty: int): void" vertex="1">
+          <mxGeometry height="27" width="338" x="17" y="142" as="geometry" />
+        </mxCell>
+        <mxCell id="uml_class_Cart_methodbg1" parent="uml_class_Cart" style="rounded=0;fillColor=#F8FAFC;strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="30" width="368" x="2" y="169" as="geometry" />
+        </mxCell>
+        <mxCell id="uml_class_Cart_method1" parent="uml_class_Cart" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=14;fontColor=#164E63;fontStyle=0;spacing=0;strokeColor=none;fillColor=none;" value="+ removeItem(productId: int): void" vertex="1">
+          <mxGeometry height="27" width="338" x="17" y="172" as="geometry" />
+        </mxCell>
+        <mxCell id="uml_class_Cart_method2" parent="uml_class_Cart" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=14;fontColor=#164E63;fontStyle=0;spacing=0;strokeColor=none;fillColor=none;" value="+ getTotal(): decimal" vertex="1">
+          <mxGeometry height="27" width="338" x="17" y="202" as="geometry" />
+        </mxCell>
+        <mxCell id="uml_class_CartItem" parent="1" style="group;html=0;container=1;collapsible=0;recursiveResize=0;connectable=1;" value="" vertex="1">
+          <mxGeometry height="238" width="372" x="1040" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="uml_class_CartItem_border" parent="uml_class_CartItem" style="rounded=1;arcSize=4;fillColor=#FFFFFF;strokeColor=#0F766E;strokeWidth=2.1;shadow=1;" value="" vertex="1">
+          <mxGeometry height="238" width="372" as="geometry" />
+        </mxCell>
+        <mxCell id="uml_class_CartItem_header" parent="uml_class_CartItem" style="rounded=0;fillColor=#CCFBF1;strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="59" width="370" x="1" y="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uml_class_CartItem_name" parent="uml_class_CartItem" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=21;fontColor=#0F766E;fontStyle=1;spacing=0;strokeColor=none;fillColor=none;" value="CartItem" vertex="1">
+          <mxGeometry height="28" width="344" x="14" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="uml_class_CartItem_fa" parent="uml_class_CartItem" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=11;fontColor=#475569;fontStyle=0;spacing=0;strokeColor=none;fillColor=none;" value="اقلام سبد" vertex="1">
+          <mxGeometry height="16" width="344" x="14" y="36" as="geometry" />
+        </mxCell>
+        <mxCell id="uml_class_CartItem_line1" parent="uml_class_CartItem" style="rounded=0;fillColor=#0F766E;strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="1.4" width="372" y="59" as="geometry" />
+        </mxCell>
+        <mxCell id="uml_class_CartItem_attribute0" parent="uml_class_CartItem" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=15;fontColor=#1E293B;fontStyle=0;spacing=0;strokeColor=none;fillColor=none;" value="- user_id: int" vertex="1">
+          <mxGeometry height="26" width="338" x="17" y="68" as="geometry" />
+        </mxCell>
+        <mxCell id="uml_class_CartItem_attrbg1" parent="uml_class_CartItem" style="rounded=0;fillColor=#F8FAFC;strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="29" width="368" x="2" y="94" as="geometry" />
+        </mxCell>
+        <mxCell id="uml_class_CartItem_attribute1" parent="uml_class_CartItem" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=15;fontColor=#1E293B;fontStyle=0;spacing=0;strokeColor=none;fillColor=none;" value="- product_id: int" vertex="1">
+          <mxGeometry height="26" width="338" x="17" y="97" as="geometry" />
+        </mxCell>
+        <mxCell id="uml_class_CartItem_attribute2" parent="uml_class_CartItem" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=15;fontColor=#1E293B;fontStyle=0;spacing=0;strokeColor=none;fillColor=none;" value="- quantity: int" vertex="1">
+          <mxGeometry height="26" width="338" x="17" y="126" as="geometry" />
+        </mxCell>
+        <mxCell id="uml_class_CartItem_line2" parent="uml_class_CartItem" style="rounded=0;fillColor=#94A3B8;strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="1.25" width="372" y="162" as="geometry" />
+        </mxCell>
+        <mxCell id="uml_class_CartItem_method0" parent="uml_class_CartItem" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=14;fontColor=#164E63;fontStyle=0;spacing=0;strokeColor=none;fillColor=none;" value="+ setQuantity(qty: int): void" vertex="1">
+          <mxGeometry height="27" width="338" x="17" y="171" as="geometry" />
+        </mxCell>
+        <mxCell id="uml_class_CartItem_methodbg1" parent="uml_class_CartItem" style="rounded=0;fillColor=#F8FAFC;strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="30" width="368" x="2" y="198" as="geometry" />
+        </mxCell>
+        <mxCell id="uml_class_CartItem_method1" parent="uml_class_CartItem" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=14;fontColor=#164E63;fontStyle=0;spacing=0;strokeColor=none;fillColor=none;" value="+ getSubtotal(): decimal" vertex="1">
+          <mxGeometry height="27" width="338" x="17" y="201" as="geometry" />
+        </mxCell>
+        <mxCell id="uml_class_Product" parent="1" style="group;html=0;container=1;collapsible=0;recursiveResize=0;connectable=1;" value="" vertex="1">
+          <mxGeometry height="326" width="372" x="1540" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="uml_class_Product_border" parent="uml_class_Product" style="rounded=1;arcSize=4;fillColor=#FFFFFF;strokeColor=#B45309;strokeWidth=2.1;shadow=1;" value="" vertex="1">
+          <mxGeometry height="326" width="372" as="geometry" />
+        </mxCell>
+        <mxCell id="uml_class_Product_header" parent="uml_class_Product" style="rounded=0;fillColor=#FEF3C7;strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="59" width="370" x="1" y="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uml_class_Product_name" parent="uml_class_Product" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=21;fontColor=#B45309;fontStyle=1;spacing=0;strokeColor=none;fillColor=none;" value="Product" vertex="1">
+          <mxGeometry height="28" width="344" x="14" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="uml_class_Product_fa" parent="uml_class_Product" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=11;fontColor=#475569;fontStyle=0;spacing=0;strokeColor=none;fillColor=none;" value="محصول / گل" vertex="1">
+          <mxGeometry height="16" width="344" x="14" y="36" as="geometry" />
+        </mxCell>
+        <mxCell id="uml_class_Product_line1" parent="uml_class_Product" style="rounded=0;fillColor=#B45309;strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="1.4" width="372" y="59" as="geometry" />
+        </mxCell>
+        <mxCell id="uml_class_Product_attribute0" parent="uml_class_Product" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=15;fontColor=#1E293B;fontStyle=0;spacing=0;strokeColor=none;fillColor=none;" value="- product_id: int " vertex="1">
+          <mxGeometry height="26" width="338" x="17" y="68" as="geometry" />
+        </mxCell>
+        <mxCell id="uml_class_Product_attrbg1" parent="uml_class_Product" style="rounded=0;fillColor=#F8FAFC;strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="29" width="368" x="2" y="94" as="geometry" />
+        </mxCell>
+        <mxCell id="uml_class_Product_attribute1" parent="uml_class_Product" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=15;fontColor=#1E293B;fontStyle=0;spacing=0;strokeColor=none;fillColor=none;" value="- category_id: int" vertex="1">
+          <mxGeometry height="26" width="338" x="17" y="97" as="geometry" />
+        </mxCell>
+        <mxCell id="uml_class_Product_attribute2" parent="uml_class_Product" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=15;fontColor=#1E293B;fontStyle=0;spacing=0;strokeColor=none;fillColor=none;" value="- name: varchar" vertex="1">
+          <mxGeometry height="26" width="338" x="17" y="126" as="geometry" />
+        </mxCell>
+        <mxCell id="uml_class_Product_attrbg3" parent="uml_class_Product" style="rounded=0;fillColor=#F8FAFC;strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="29" width="368" x="2" y="152" as="geometry" />
+        </mxCell>
+        <mxCell id="uml_class_Product_attribute3" parent="uml_class_Product" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=15;fontColor=#1E293B;fontStyle=0;spacing=0;strokeColor=none;fillColor=none;" value="- price: decimal" vertex="1">
+          <mxGeometry height="26" width="338" x="17" y="155" as="geometry" />
+        </mxCell>
+        <mxCell id="uml_class_Product_attribute4" parent="uml_class_Product" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=15;fontColor=#1E293B;fontStyle=0;spacing=0;strokeColor=none;fillColor=none;" value="- stock: int" vertex="1">
+          <mxGeometry height="26" width="338" x="17" y="184" as="geometry" />
+        </mxCell>
+        <mxCell id="uml_class_Product_line2" parent="uml_class_Product" style="rounded=0;fillColor=#94A3B8;strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="1.25" width="372" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="uml_class_Product_method0" parent="uml_class_Product" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=14;fontColor=#164E63;fontStyle=0;spacing=0;strokeColor=none;fillColor=none;" value="+ isAvailable(qty: int): bool" vertex="1">
+          <mxGeometry height="27" width="338" x="17" y="229" as="geometry" />
+        </mxCell>
+        <mxCell id="uml_class_Product_methodbg1" parent="uml_class_Product" style="rounded=0;fillColor=#F8FAFC;strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="30" width="368" x="2" y="256" as="geometry" />
+        </mxCell>
+        <mxCell id="uml_class_Product_method1" parent="uml_class_Product" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=14;fontColor=#164E63;fontStyle=0;spacing=0;strokeColor=none;fillColor=none;" value="+ changeStock(qty: int): void" vertex="1">
+          <mxGeometry height="27" width="338" x="17" y="259" as="geometry" />
+        </mxCell>
+        <mxCell id="uml_class_Product_method2" parent="uml_class_Product" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=14;fontColor=#164E63;fontStyle=0;spacing=0;strokeColor=none;fillColor=none;" value="+ updatePrice(price: decimal): void" vertex="1">
+          <mxGeometry height="27" width="338" x="17" y="289" as="geometry" />
+        </mxCell>
+        <mxCell id="uml_class_Category" parent="1" style="group;html=0;container=1;collapsible=0;recursiveResize=0;connectable=1;" value="" vertex="1">
+          <mxGeometry height="209" width="372" x="2040" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="uml_class_Category_border" parent="uml_class_Category" style="rounded=1;arcSize=4;fillColor=#FFFFFF;strokeColor=#7C3AED;strokeWidth=2.1;shadow=1;" value="" vertex="1">
+          <mxGeometry height="209" width="372" as="geometry" />
+        </mxCell>
+        <mxCell id="uml_class_Category_header" parent="uml_class_Category" style="rounded=0;fillColor=#EDE9FE;strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="59" width="370" x="1" y="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uml_class_Category_name" parent="uml_class_Category" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=21;fontColor=#7C3AED;fontStyle=1;spacing=0;strokeColor=none;fillColor=none;" value="Category" vertex="1">
+          <mxGeometry height="28" width="344" x="14" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="uml_class_Category_fa" parent="uml_class_Category" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=11;fontColor=#475569;fontStyle=0;spacing=0;strokeColor=none;fillColor=none;" value="دسته بندی" vertex="1">
+          <mxGeometry height="16" width="344" x="14" y="36" as="geometry" />
+        </mxCell>
+        <mxCell id="uml_class_Category_line1" parent="uml_class_Category" style="rounded=0;fillColor=#7C3AED;strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="1.4" width="372" y="59" as="geometry" />
+        </mxCell>
+        <mxCell id="uml_class_Category_attribute0" parent="uml_class_Category" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=15;fontColor=#1E293B;fontStyle=0;spacing=0;strokeColor=none;fillColor=none;" value="- category_id: int " vertex="1">
+          <mxGeometry height="26" width="338" x="17" y="68" as="geometry" />
+        </mxCell>
+        <mxCell id="uml_class_Category_attrbg1" parent="uml_class_Category" style="rounded=0;fillColor=#F8FAFC;strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="29" width="368" x="2" y="94" as="geometry" />
+        </mxCell>
+        <mxCell id="uml_class_Category_attribute1" parent="uml_class_Category" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=15;fontColor=#1E293B;fontStyle=0;spacing=0;strokeColor=none;fillColor=none;" value="- name: varchar" vertex="1">
+          <mxGeometry height="26" width="338" x="17" y="97" as="geometry" />
+        </mxCell>
+        <mxCell id="uml_class_Category_line2" parent="uml_class_Category" style="rounded=0;fillColor=#94A3B8;strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="1.25" width="372" y="133" as="geometry" />
+        </mxCell>
+        <mxCell id="uml_class_Category_method0" parent="uml_class_Category" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=14;fontColor=#164E63;fontStyle=0;spacing=0;strokeColor=none;fillColor=none;" value="+ getProducts(): List&lt;Product&gt;" vertex="1">
+          <mxGeometry height="27" width="338" x="17" y="142" as="geometry" />
+        </mxCell>
+        <mxCell id="uml_class_Category_methodbg1" parent="uml_class_Category" style="rounded=0;fillColor=#F8FAFC;strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="30" width="368" x="2" y="169" as="geometry" />
+        </mxCell>
+        <mxCell id="uml_class_Category_method1" parent="uml_class_Category" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=14;fontColor=#164E63;fontStyle=0;spacing=0;strokeColor=none;fillColor=none;" value="+ rename(name: varchar): void" vertex="1">
+          <mxGeometry height="27" width="338" x="17" y="172" as="geometry" />
+        </mxCell>
+        <mxCell id="uml_class_Order" parent="1" style="group;html=0;container=1;collapsible=0;recursiveResize=0;connectable=1;" value="" vertex="1">
+          <mxGeometry height="355" width="372" x="550" y="1040" as="geometry" />
+        </mxCell>
+        <mxCell id="uml_class_Order_border" parent="uml_class_Order" style="rounded=1;arcSize=4;fillColor=#FFFFFF;strokeColor=#1D4ED8;strokeWidth=2.1;shadow=1;" value="" vertex="1">
+          <mxGeometry height="355" width="372" as="geometry" />
+        </mxCell>
+        <mxCell id="uml_class_Order_header" parent="uml_class_Order" style="rounded=0;fillColor=#DBEAFE;strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="59" width="370" x="1" y="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uml_class_Order_name" parent="uml_class_Order" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=21;fontColor=#1D4ED8;fontStyle=1;spacing=0;strokeColor=none;fillColor=none;" value="Order" vertex="1">
+          <mxGeometry height="28" width="344" x="14" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="uml_class_Order_fa" parent="uml_class_Order" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=11;fontColor=#475569;fontStyle=0;spacing=0;strokeColor=none;fillColor=none;" value="سفارش" vertex="1">
+          <mxGeometry height="16" width="344" x="14" y="36" as="geometry" />
+        </mxCell>
+        <mxCell id="uml_class_Order_line1" parent="uml_class_Order" style="rounded=0;fillColor=#1D4ED8;strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="1.4" width="372" y="59" as="geometry" />
+        </mxCell>
+        <mxCell id="uml_class_Order_attribute0" parent="uml_class_Order" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=15;fontColor=#1E293B;fontStyle=0;spacing=0;strokeColor=none;fillColor=none;" value="- order_id: int" vertex="1">
+          <mxGeometry height="26" width="338" x="17" y="68" as="geometry" />
+        </mxCell>
+        <mxCell id="uml_class_Order_attrbg1" parent="uml_class_Order" style="rounded=0;fillColor=#F8FAFC;strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="29" width="368" x="2" y="94" as="geometry" />
+        </mxCell>
+        <mxCell id="uml_class_Order_attribute1" parent="uml_class_Order" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=15;fontColor=#1E293B;fontStyle=0;spacing=0;strokeColor=none;fillColor=none;" value="- user_id: int" vertex="1">
+          <mxGeometry height="26" width="338" x="17" y="97" as="geometry" />
+        </mxCell>
+        <mxCell id="uml_class_Order_attribute2" parent="uml_class_Order" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=15;fontColor=#1E293B;fontStyle=0;spacing=0;strokeColor=none;fillColor=none;" value="- created_at: datetime" vertex="1">
+          <mxGeometry height="26" width="338" x="17" y="126" as="geometry" />
+        </mxCell>
+        <mxCell id="uml_class_Order_attrbg3" parent="uml_class_Order" style="rounded=0;fillColor=#F8FAFC;strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="29" width="368" x="2" y="152" as="geometry" />
+        </mxCell>
+        <mxCell id="uml_class_Order_attribute3" parent="uml_class_Order" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=15;fontColor=#1E293B;fontStyle=0;spacing=0;strokeColor=none;fillColor=none;" value="- total_amount: decimal" vertex="1">
+          <mxGeometry height="26" width="338" x="17" y="155" as="geometry" />
+        </mxCell>
+        <mxCell id="uml_class_Order_attribute4" parent="uml_class_Order" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=15;fontColor=#1E293B;fontStyle=0;spacing=0;strokeColor=none;fillColor=none;" value="- status: varchar" vertex="1">
+          <mxGeometry height="26" width="338" x="17" y="184" as="geometry" />
+        </mxCell>
+        <mxCell id="uml_class_Order_attrbg5" parent="uml_class_Order" style="rounded=0;fillColor=#F8FAFC;strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="29" width="368" x="2" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="uml_class_Order_attribute5" parent="uml_class_Order" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=15;fontColor=#1E293B;fontStyle=0;spacing=0;strokeColor=none;fillColor=none;" value="- tracking_code: varchar" vertex="1">
+          <mxGeometry height="26" width="338" x="17" y="213" as="geometry" />
+        </mxCell>
+        <mxCell id="uml_class_Order_line2" parent="uml_class_Order" style="rounded=0;fillColor=#94A3B8;strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="1.25" width="372" y="249" as="geometry" />
+        </mxCell>
+        <mxCell id="uml_class_Order_method0" parent="uml_class_Order" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=14;fontColor=#164E63;fontStyle=0;spacing=0;strokeColor=none;fillColor=none;" value="+ calculateTotal(): decimal" vertex="1">
+          <mxGeometry height="27" width="338" x="17" y="258" as="geometry" />
+        </mxCell>
+        <mxCell id="uml_class_Order_methodbg1" parent="uml_class_Order" style="rounded=0;fillColor=#F8FAFC;strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="30" width="368" x="2" y="285" as="geometry" />
+        </mxCell>
+        <mxCell id="uml_class_Order_method1" parent="uml_class_Order" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=14;fontColor=#164E63;fontStyle=0;spacing=0;strokeColor=none;fillColor=none;" value="+ updateStatus(status: varchar): void" vertex="1">
+          <mxGeometry height="27" width="338" x="17" y="288" as="geometry" />
+        </mxCell>
+        <mxCell id="uml_class_Order_method2" parent="uml_class_Order" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=14;fontColor=#164E63;fontStyle=0;spacing=0;strokeColor=none;fillColor=none;" value="+ setTrackingCode(code: varchar): void" vertex="1">
+          <mxGeometry height="27" width="338" x="17" y="318" as="geometry" />
+        </mxCell>
+        <mxCell id="uml_class_OrderItem" parent="1" style="group;html=0;container=1;collapsible=0;recursiveResize=0;connectable=1;" value="" vertex="1">
+          <mxGeometry height="267" width="372" x="1040" y="1040" as="geometry" />
+        </mxCell>
+        <mxCell id="uml_class_OrderItem_border" parent="uml_class_OrderItem" style="rounded=1;arcSize=4;fillColor=#FFFFFF;strokeColor=#1D4ED8;strokeWidth=2.1;shadow=1;" value="" vertex="1">
+          <mxGeometry height="267" width="372" as="geometry" />
+        </mxCell>
+        <mxCell id="uml_class_OrderItem_header" parent="uml_class_OrderItem" style="rounded=0;fillColor=#DBEAFE;strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="59" width="370" x="1" y="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uml_class_OrderItem_name" parent="uml_class_OrderItem" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=21;fontColor=#1D4ED8;fontStyle=1;spacing=0;strokeColor=none;fillColor=none;" value="OrderItem" vertex="1">
+          <mxGeometry height="28" width="344" x="14" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="uml_class_OrderItem_fa" parent="uml_class_OrderItem" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=11;fontColor=#475569;fontStyle=0;spacing=0;strokeColor=none;fillColor=none;" value="اقلام سفارش" vertex="1">
+          <mxGeometry height="16" width="344" x="14" y="36" as="geometry" />
+        </mxCell>
+        <mxCell id="uml_class_OrderItem_line1" parent="uml_class_OrderItem" style="rounded=0;fillColor=#1D4ED8;strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="1.4" width="372" y="59" as="geometry" />
+        </mxCell>
+        <mxCell id="uml_class_OrderItem_attribute0" parent="uml_class_OrderItem" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=15;fontColor=#1E293B;fontStyle=0;spacing=0;strokeColor=none;fillColor=none;" value="- order_id: int" vertex="1">
+          <mxGeometry height="26" width="338" x="17" y="68" as="geometry" />
+        </mxCell>
+        <mxCell id="uml_class_OrderItem_attrbg1" parent="uml_class_OrderItem" style="rounded=0;fillColor=#F8FAFC;strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="29" width="368" x="2" y="94" as="geometry" />
+        </mxCell>
+        <mxCell id="uml_class_OrderItem_attribute1" parent="uml_class_OrderItem" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=15;fontColor=#1E293B;fontStyle=0;spacing=0;strokeColor=none;fillColor=none;" value="- product_id: int" vertex="1">
+          <mxGeometry height="26" width="338" x="17" y="97" as="geometry" />
+        </mxCell>
+        <mxCell id="uml_class_OrderItem_attribute2" parent="uml_class_OrderItem" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=15;fontColor=#1E293B;fontStyle=0;spacing=0;strokeColor=none;fillColor=none;" value="- quantity: int" vertex="1">
+          <mxGeometry height="26" width="338" x="17" y="126" as="geometry" />
+        </mxCell>
+        <mxCell id="uml_class_OrderItem_attrbg3" parent="uml_class_OrderItem" style="rounded=0;fillColor=#F8FAFC;strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="29" width="368" x="2" y="152" as="geometry" />
+        </mxCell>
+        <mxCell id="uml_class_OrderItem_attribute3" parent="uml_class_OrderItem" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=15;fontColor=#1E293B;fontStyle=0;spacing=0;strokeColor=none;fillColor=none;" value="- unit_price: decimal" vertex="1">
+          <mxGeometry height="26" width="338" x="17" y="155" as="geometry" />
+        </mxCell>
+        <mxCell id="uml_class_OrderItem_line2" parent="uml_class_OrderItem" style="rounded=0;fillColor=#94A3B8;strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="1.25" width="372" y="191" as="geometry" />
+        </mxCell>
+        <mxCell id="uml_class_OrderItem_method0" parent="uml_class_OrderItem" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=14;fontColor=#164E63;fontStyle=0;spacing=0;strokeColor=none;fillColor=none;" value="+ getSubtotal(): decimal" vertex="1">
+          <mxGeometry height="27" width="338" x="17" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="uml_class_OrderItem_methodbg1" parent="uml_class_OrderItem" style="rounded=0;fillColor=#F8FAFC;strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="30" width="368" x="2" y="227" as="geometry" />
+        </mxCell>
+        <mxCell id="uml_class_OrderItem_method1" parent="uml_class_OrderItem" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=14;fontColor=#164E63;fontStyle=0;spacing=0;strokeColor=none;fillColor=none;" value="+ changeQuantity(qty: int): void" vertex="1">
+          <mxGeometry height="27" width="338" x="17" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="uml_class_Payment" parent="1" style="group;html=0;container=1;collapsible=0;recursiveResize=0;connectable=1;" value="" vertex="1">
+          <mxGeometry height="297" width="372" x="550" y="1490" as="geometry" />
+        </mxCell>
+        <mxCell id="uml_class_Payment_border" parent="uml_class_Payment" style="rounded=1;arcSize=4;fillColor=#FFFFFF;strokeColor=#15803D;strokeWidth=2.1;shadow=1;" value="" vertex="1">
+          <mxGeometry height="267" width="372" as="geometry" />
+        </mxCell>
+        <mxCell id="uml_class_Payment_header" parent="uml_class_Payment" style="rounded=0;fillColor=#DCFCE7;strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="59" width="370" x="1" y="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uml_class_Payment_name" parent="uml_class_Payment" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=21;fontColor=#15803D;fontStyle=1;spacing=0;strokeColor=none;fillColor=none;" value="Payment" vertex="1">
+          <mxGeometry height="28" width="344" x="14" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="uml_class_Payment_fa" parent="uml_class_Payment" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=11;fontColor=#475569;fontStyle=0;spacing=0;strokeColor=none;fillColor=none;" value="پرداخت" vertex="1">
+          <mxGeometry height="16" width="344" x="14" y="36" as="geometry" />
+        </mxCell>
+        <mxCell id="uml_class_Payment_line1" parent="uml_class_Payment" style="rounded=0;fillColor=#15803D;strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="1.4" width="372" y="59" as="geometry" />
+        </mxCell>
+        <mxCell id="uml_class_Payment_attribute0" parent="uml_class_Payment" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=15;fontColor=#1E293B;fontStyle=0;spacing=0;strokeColor=none;fillColor=none;" value="- payment_id: int" vertex="1">
+          <mxGeometry height="26" width="338" x="17" y="68" as="geometry" />
+        </mxCell>
+        <mxCell id="uml_class_Payment_attrbg1" parent="uml_class_Payment" style="rounded=0;fillColor=#F8FAFC;strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="29" width="368" x="2" y="94" as="geometry" />
+        </mxCell>
+        <mxCell id="uml_class_Payment_attribute1" parent="uml_class_Payment" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=15;fontColor=#1E293B;fontStyle=0;spacing=0;strokeColor=none;fillColor=none;" value="- order_id: int" vertex="1">
+          <mxGeometry height="26" width="338" x="17" y="97" as="geometry" />
+        </mxCell>
+        <mxCell id="uml_class_Payment_attribute2" parent="uml_class_Payment" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=15;fontColor=#1E293B;fontStyle=0;spacing=0;strokeColor=none;fillColor=none;" value="- amount: decimal" vertex="1">
+          <mxGeometry height="26" width="338" x="17" y="126" as="geometry" />
+        </mxCell>
+        <mxCell id="uml_class_Payment_attrbg3" parent="uml_class_Payment" style="rounded=0;fillColor=#F8FAFC;strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="29" width="368" x="2" y="152" as="geometry" />
+        </mxCell>
+        <mxCell id="uml_class_Payment_attribute3" parent="uml_class_Payment" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=15;fontColor=#1E293B;fontStyle=0;spacing=0;strokeColor=none;fillColor=none;" value="- status: varchar" vertex="1">
+          <mxGeometry height="26" width="338" x="17" y="155" as="geometry" />
+        </mxCell>
+        <mxCell id="uml_class_Payment_line2" parent="uml_class_Payment" style="rounded=0;fillColor=#94A3B8;strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="1.25" width="372" y="191" as="geometry" />
+        </mxCell>
+        <mxCell id="uml_class_Payment_methodbg1" parent="uml_class_Payment" style="rounded=0;fillColor=#F8FAFC;strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="30" width="368" x="2" y="227" as="geometry" />
+        </mxCell>
+        <mxCell id="uml_class_Payment_method1" parent="uml_class_Payment" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=14;fontColor=#164E63;fontStyle=0;spacing=0;strokeColor=none;fillColor=none;" value="+ verify(): bool" vertex="1">
+          <mxGeometry height="27" width="338" x="17" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="uml_class_Payment_method2" parent="uml_class_Payment" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=14;fontColor=#164E63;fontStyle=0;spacing=0;strokeColor=none;fillColor=none;" value="+ updateStatus(status: varchar): void" vertex="1">
+          <mxGeometry height="27" width="338" x="14" y="228.5" as="geometry" />
+        </mxCell>
+        <mxCell id="gd-R6F6QLu4PuzotXr9j-1" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=15;fontColor=#334155;fontStyle=1;spacing=0;strokeColor=none;fillColor=none;" value="1" vertex="1">
+          <mxGeometry height="26" width="67" x="1990" y="745" as="geometry" />
+        </mxCell>
+        <mxCell id="gd-R6F6QLu4PuzotXr9j-2" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=15;fontColor=#334155;fontStyle=1;spacing=0;strokeColor=none;fillColor=none;" value="0..*" vertex="1">
+          <mxGeometry height="26" width="67" x="1473" y="705.5" as="geometry" />
+        </mxCell>
+        <mxCell id="gd-R6F6QLu4PuzotXr9j-3" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=15;fontColor=#334155;fontStyle=1;spacing=0;strokeColor=none;fillColor=none;" value="0..*" vertex="1">
+          <mxGeometry height="26" width="67" x="1440" y="873" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
